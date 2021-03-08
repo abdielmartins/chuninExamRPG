@@ -14,14 +14,14 @@ class Jounin(Ninja):
 
     def start_mission(self) -> str:
         if self.is_in_mission:
-            return f"O ninja {self.name} Hatake já está em uma missão"
+            return f"O ninja {self.name} {self.clan} já está em uma missão"
         else:
             self.is_in_mission = True
-            return f"O ninja {self.name} Hatake saiu em missão"
+            return f"O ninja {self.name} {self.clan} saiu em missão"
 
     def return_from_mission(self) -> str:
         if self.is_in_mission:
             self.is_in_mission = False
-            return f"O ninja {self.name} Hatake retornou em segurança da missão"
+            return f"O ninja {self.name} {self.clan} retornou em segurança da missão"
         else:
-            return f"O ninja {self.name} Hatake não está em nenhuma missão no momento"
+            return f"O ninja {self.name} {self.clan} não está em nenhuma missão no momento"
