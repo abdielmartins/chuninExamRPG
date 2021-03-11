@@ -23,7 +23,7 @@ class Ninja:
 
     def learn_jutsu(self, jutsu: Jutsu) -> str:
         self.jutsu_list.append(jutsu)
-        return f"O ninja {self.name} acabou de aprender um novo jutsu: {jutsu.jutsu_name}"
+        return f"O ninja {self.name} {self.clan} acabou de aprender um novo jutsu: {jutsu.jutsu_name}"
 
     def cast_jutsu(self, jutsu: Jutsu, adversary: Ninja) -> bool:
         if not Ninja.check_health(adversary):
