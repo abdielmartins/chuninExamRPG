@@ -112,3 +112,47 @@ See also the list of [contributors](https://github.com/kylelobo/The-Documentatio
 - Hat tip to anyone whose code was used
 - Inspiration
 - References
+
+<br>
+<hr>
+<hr>
+<br>
+
+# regras do jogo:
+
+## personagens:
+
+```
+20 personagens:
+
+-> procurar api do naruto
+
+skills:
+
+-> 2 ataques: 1 fraco 1 especial
+-> 1 buff:
+-> 1 debuff:
+
+itens:
+
+-> shuriken
+-> papel bomba
+-> item identidade
+```
+
+## mecanica:
+
+```
+por turno, até encerrar o hp.
+1 dado de 12, joga 2x, 1 pro ataque 1 pra defesa
+
+multiplicador de ataque * dado
+multiplicador de defesa * dado
+
+sorteia chave no inicio do torneio
+
+tipar os personagens com base em atributos: ninjutsu, genjutsu, taijutsu
+
+
+
+```
