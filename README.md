@@ -123,7 +123,28 @@ See also the list of [contributors](https://github.com/kylelobo/The-Documentatio
 ## personagens:
 
 ```
-20 personagens:
+15 personagens:
+
+-> Naruto
+-> Sasuke
+-> Sakura
+-> Neji
+-> Tenten
+-> Rock Lee
+-> Shikamaru
+-> Ino
+-> Choji
+-> Kiba / Akamaru
+-> Hinata
+-> Shino
+-> Gaara
+-> Kankuro
+-> Temari
+
+atributos:
+
+->
+
 
 -> procurar api do naruto
 
