@@ -141,39 +141,36 @@ See also the list of [contributors](https://github.com/kylelobo/The-Documentatio
 -> Kankuro
 -> Temari
 
-atributos:
+atributos (0 a 10):
 
-->
+-> taijutsu
+-> genjutsu
+-> ninjutsu
+
+        vantagem(*.2) ->  desvantagem
+relacao: taijutsu -> genjutsu
+         ninjutsu -> taijutsu
+         genjutsu -> ninjutsu
 
 
--> procurar api do naruto
+-> procurar api do naruto(FUTURO)
 
-skills:
+skills (multiplicador: 0 a 1):
 
--> 2 ataques: 1 fraco 1 especial
+-> 2 ataques: 1 fraco, 1 especial
 -> 1 buff:
 -> 1 debuff:
 
-itens:
-
--> shuriken
--> papel bomba
--> item identidade
-```
-
-## mecanica:
-
-```
-por turno, até encerrar o hp.
+dados: 2 a 12 (2 dados de 6)
+quem ta atacando joga, quem ta defendendo joga
+até encerrar o hp.
 1 dado de 12, joga 2x, 1 pro ataque 1 pra defesa
+cada turno devolve 5 de chakra
 
 multiplicador de ataque * dado
 multiplicador de defesa * dado
 
 sorteia chave no inicio do torneio
 
-tipar os personagens com base em atributos: ninjutsu, genjutsu, taijutsu
-
-
-
+Opções de
 ```
