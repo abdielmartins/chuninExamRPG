@@ -1,5 +1,5 @@
 from __future__ import annotations
-from .jutsu_model import Jutsu
+from ..jutsu_models.jutsu_model import Jutsu
 
 
 class Ninja:
@@ -7,9 +7,9 @@ class Ninja:
     def check_health(ninja_to_check: Ninja) -> bool:
         if ninja_to_check.health_pool < 0:
             ninja_to_check.health_pool = 0
-            ninja_to_check.concious = False
+            ninja_to_check.conscious = False
 
-        return ninja_to_check.concious
+        return ninja_to_check.conscious
 
     def __init__(self, name: str, clan: str, village: str, ninja_level: str = "Unranked") -> None:
         self.name = name
@@ -19,7 +19,7 @@ class Ninja:
         self.jutsu_list = []
         self.health_pool = 100
         self.chakra_pool = 100
-        self.concious = True
+        self.conscious = True
 
     def learn_jutsu(self, jutsu: Jutsu) -> str:
         self.jutsu_list.append(jutsu)
